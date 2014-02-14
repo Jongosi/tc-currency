@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author     Jason at TwinCreations <twincreations.co.uk>
+ * @copyright  Copyright (c) 2014 TwinCreations <http://twincreations.co.uk/>
+ */
+-->
+<config>
+    <modules>
+        <TC_Currency>
+            <version>1.0.0</version>
+        </TC_Currency>
+    </modules>
+    <global>
+        <currency>
+            <import>
+                <services>
+                    <yahoofinance>
+                        <name>Yahoo Finance</name>
+                        <model>TC_Currency_Model_Yahoo</model>
+                    </yahoofinance>
+                </services>
+            </import>
+        </currency>
+        <models>
+            <tc_currency>
+                <class>TC_Currency_Model_Yahoo</class>
+            </tc_currency>
+        </models>
+    </global>
+</config>

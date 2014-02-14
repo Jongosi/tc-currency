@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author     Jason at TwinCreations <twincreations.co.uk>
+ * @copyright  Copyright (c) 2014 TwinCreations <http://twincreations.co.uk/>
+ */
+-->
+<config>
+    <modules>
+        <TC_Currency>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Adminhtml />
+                <Mage_Core />
+            </depends>
+        </TC_Currency>
+    </modules>
+</config>
